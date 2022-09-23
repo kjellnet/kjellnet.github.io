@@ -1,1 +1,1 @@
-# [My website](https://norstyrm.github.io)
+# [Website link](https://norstyrm.github.io)
