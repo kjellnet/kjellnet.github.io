@@ -3,18 +3,48 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>GameBoy Web Games</title>
-		<style>
-			body {
-				font-family:verdana;
-			}
-		</style>
+		<title>KjellNet | GameBoy Web Games</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<header>
-			<h1>GameBoy Web Games</h1>
-		</header>
-		<nav>
+
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand">
+					<img src="../assets/home/logo.png" alt="Avatar" style="width:40px;" class="rounded-pill"> KjellNet</a>
+
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="wallpapers" role="button" data-bs-toggle="dropdown">Wallpapers</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="games">Games</a></li>
+							<li><a class="dropdown-item" href="games">Movies</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="gbstudio">GameBoy Web Games</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://plex.kjellnet.com">Plex Server</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://jellyfin.kjellnet.com">JellyFin Server</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://ost.kjellnet.com">Speedtest</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+
+		<div class="container-fluid mt-3">
+			<h3>GameBoy Web Games</h3>
 			<a href="gbstudio1template">GB Studio 1 Sample<br></a>
 			<a href="gbstudio3template">GB Studio 3 Sample<br></a>
 			<a href="zladx">Green Tunic Man Awakens<br></a>
@@ -26,6 +56,7 @@
 			<a href="pkmr">Ball Creature Red<br></a>
 			<a href="pkmb">Ball Creature Blue<br></a>
 			<a href="pkmy">Ball Creature Yellow<br></a>
-		</nav>
+		</div>
+
 	</body>
 </html>
