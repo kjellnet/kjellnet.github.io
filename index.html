@@ -10,15 +10,18 @@
 	</head>
 	<body>
 
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<nav class="navbar nav-underline navbar-expand-sm bg-dark navbar-dark">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="/">
-					<img src="assets/home/logo.png" alt="Avatar" style="width:40px;" class="rounded-pill"> KjellNet</a>
+					<img src="assets/home/logo.png" alt="Logo" style="width:40px;" class="rounded-pill d-inline-block"> KjellNet
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active" href="/">Home</a>
-					</li>
+				<div class="navbar-nav me-auto mb-2 mb-lg-0">
+					<a class="nav-link active" aria-current="page" href="/">Home</a>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="/wallpapers" role="button" data-bs-toggle="dropdown">Wallpapers</a>
 						<ul class="dropdown-menu">
@@ -26,9 +29,7 @@
 							<li><a class="dropdown-item" href="/wallpapers/movies">Movies</a></li>
 						</ul>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/gbstudio">GameBoy Web Games</a>
-					</li>
+					<a class="nav-link" href="/gbstudio">GameBoy Web Games</a>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Servers</a>
 						<ul class="dropdown-menu">
@@ -37,11 +38,10 @@
 							<li><a class="dropdown-item" href="https://ost.kjellnet.com">Speedtest</a></li>
 						</ul>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/about">About</a>
-					</li>
-				</ul>
+					<a class="nav-link" href="/about">About</a>
+				</div>
 
+				</div>
 			</div>
 		</nav>
 
