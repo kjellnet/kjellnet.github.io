@@ -1,46 +1,65 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>KjellNet | GameBoy Web Games</title>
+		<title>GameBoy Web Games - KjellNet</title>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 	</head>
 	<body>
 
-		<nav class="navbar nav-underline navbar-expand-sm bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-md border-bottom border-body bg-dark">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="/">
-					<img src="../assets/home/logo.png" alt="Logo" style="width:40px;" class="rounded-pill d-inline-block"> KjellNet
+					<img src="../assets/home/logo.png" alt="logo" width="40" class="rounded-pill d-inline-block">
+					KjellNet
 				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+					<div class="navbar-nav mb-2 mb-lg-0 align-self-end">
 
-				<div class="navbar-nav me-auto mb-2 mb-lg-0">
-					<a class="nav-link" href="/">Home</a>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="/wallpapers" role="button" data-bs-toggle="dropdown">Wallpapers</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="/wallpapers/games">Games</a></li>
-							<li><a class="dropdown-item" href="/wallpapers/movies">Movies</a></li>
-						</ul>
-					</li>
-					<a class="nav-link active" aria-current="page" href="/gbstudio">GameBoy Web Games</a>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Servers</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="https://plex.kjellnet.com">Plex Server</a></li>
-							<li><a class="dropdown-item" href="https://jellyfin.kjellnet.com">JellyFin Server</a></li>
-							<li><a class="dropdown-item" href="https://ost.kjellnet.com">Speedtest</a></li>
-						</ul>
-					</li>
-					<a class="nav-link" href="/about">About</a>
+						<a class="nav-link" href="/">
+							<i class="bi-house"></i>
+							Home
+						</a>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="/wallpapers" role="button" data-bs-toggle="dropdown">
+								<i class="bi-image"></i>
+								Wallpapers
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="/wallpapers/games">Games</a></li>
+								<li><a class="dropdown-item" href="/wallpapers/movies">Movies</a></li>
+							</ul>
+						</li>
+
+						<a class="nav-link active" aria-current="page" href="/gbstudio">
+							<i class="bi-dpad-fill"></i>
+							GameBoy Web Games
+						</a>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Servers</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="https://plex.kjellnet.com">Plex Server</a></li>
+								<li><a class="dropdown-item" href="https://jellyfin.kjellnet.com">JellyFin Server</a></li>
+								<li><a class="dropdown-item" href="https://ost.kjellnet.com">Speedtest</a></li>
+							</ul>
+						</li>
+
+						<a class="nav-link" href="/about">
+							<i class="bi-info-circle"></i>
+							About
+						</a>
+
+					</div>
 				</div>
-
 			</div>
 		</nav>
 
